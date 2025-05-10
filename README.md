@@ -1,12 +1,16 @@
 # Sample Teaching Resources
 
-This repository showcases selected teaching materials developed by Dr. Fan Wang for university-level courses in statistics and genomics. 
+This repository showcases selected teaching materials developed by Dr. Fan Wang for university-level courses in statistics and genomics.
 
-We provide a toy dataset in [example](/example). 
-The input data includes 
-1) the binary genotype file in [example](/example) contains N sample = 500 individuals (column "IID") 
-and N variant = 100 SNPs from the [https://github.com/cloufield/GWASTutorial.git/01_Dataset/download_sampledata.sh](https://github.com/cloufield/GWASTutorial.git/01_Dataset/download_sampledata.sh).
-2) the [phenotype file](example/normalized_pheno.txt) that contains one simulated quantitative trait (column "Y1") for the N sample = 500 individuals (column "IID").
-3) the [covariate file](example/covariate.txt) that contains two simulated covariates (columns "covar1" and "covar2") for the N sample = 500 individuals (column "IID").
+Due to university policies, I am unable to share full course content publicly. However, this repository includes selected materials that demonstrate my instructional design and teaching style.
 
-Run the R script [example.regenie.qrs.R](/example/example.regenie.qrs.R) to perform Regenie.QRS (single variant tests) for the phenotype and genotype data in [example](/example). Set ```is.effect.estimated = T``` to enable the estimation of quantile-specific effect size (disabled by default). Set ```data.path``` to the directory where you store your data and results, and set ```Regenie.path``` to the location where the Regenie executable is installed.
+## Included Materials
+
+- [Sample Review Session Materials](/STA255%20Review%20Topics.pdf)  
+  *Course: STA255 – Statistical Theory, University of Toronto*  
+  This document includes materials covering three key topics: parameter estimation, confidence intervals, and hypothesis testing.
+
+- [Sample Lecture Slides: Colocalization](/Statsgene_coloc_03282025.pptx)  
+  *Course: P8119 – Advanced Statistical and Computational Methods, Columbia University*  
+  These slides were prepared for a lecture on the topic of colocalization in statistical genetics.
+
